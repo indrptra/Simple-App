@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aplikasi Sederhana</string>
+    <string name="action_settings">Setting</string>
+    <string name="income">Masukan</string>
+    <string name="outcome">Pengeluaran</string>
+    <string name="Balance">Seimbang :</string>
+</resources>
