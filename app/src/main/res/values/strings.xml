@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Simple-App</string>
     <string name="action_settings">Settings</string>
+    <string name="income">Income</string>
+    <string name="outcome">Outcome</string>
+    <string name="Balance">Balance :</string>
 </resources>
