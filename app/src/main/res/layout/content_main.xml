@@ -28,33 +28,44 @@
 
                     <FrameLayout
                         style="@style/FrameStyle">
-
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
                         <EditText
                             android:hint="@string/income"
                             android:id="@+id/txt_income"
                             android:focusableInTouchMode="true"
                             style="@style/InputNameStyle"
                              />
+                        </android.support.design.widget.TextInputLayout>
                     </FrameLayout>
 
                     <FrameLayout
-                        style="@style/FrameStyle">
-
+                        style="@style/FrameStyle"
+                        android:layout_gravity="center_horizontal">
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
                         <EditText
                             android:hint="@string/outcome"
                             android:id="@+id/txt_outcome"
                             style="@style/InputNameStyle"
                             />
+                        </android.support.design.widget.TextInputLayout>
                     </FrameLayout>
 
                     <FrameLayout
-                        style="@style/FrameStyle">
+                        style="@style/FrameStyle"
+                        android:layout_gravity="center_horizontal">
 
                         <LinearLayout
                             style="@style/LinearHorizontal">
 
                             <FrameLayout
                                 style="@style/FrameStyle">
+
 
                                 <TextView
                                     android:text="@string/Balance"
